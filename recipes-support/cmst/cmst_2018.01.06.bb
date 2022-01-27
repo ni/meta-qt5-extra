@@ -8,7 +8,7 @@ inherit qmake5 gtk-icon-cache
 
 DEPENDS += "connman qtbase"
 
-SRC_URI = "git://github.com/andrew-bibb/cmst.git"
+SRC_URI = "git://github.com/andrew-bibb/cmst.git;protocol=https"
 SRCREV = "cf41767dfbb849f9c05bcdfc7fcb6a37c90b2ad0"
 S = "${WORKDIR}/git"
 

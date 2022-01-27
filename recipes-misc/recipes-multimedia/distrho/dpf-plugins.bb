@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = " \
 "
 
 SRC_URI = " \
-    git://github.com/DISTRHO/DPF-Plugins.git \
+    git://github.com/DISTRHO/DPF-Plugins.git;protocol=https \
     file://0001-Disable-modgui-we-don-t-support-modgui.patch \
 "
 

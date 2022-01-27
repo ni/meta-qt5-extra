@@ -22,7 +22,7 @@ DEPENDS += " \
 inherit cmake_qt5 pkgconfig gtk-icon-cache distro_features_check mime qt5-translation
 
 SRC_URI = " \
-    git://github.com/muse-sequencer/muse.git \
+    git://github.com/muse-sequencer/muse.git;protocol=https \
 "
 SRCREV = "02d9dc6abd757c3c1783fdd46dacd3c4ef2c0a6d"
 PV = "3.0.2+git${SRCPV}"

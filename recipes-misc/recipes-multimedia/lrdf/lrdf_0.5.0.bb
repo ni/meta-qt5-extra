@@ -7,7 +7,7 @@ inherit autotools pkgconfig
 
 DEPENDS = "raptor2"
 
-SRC_URI = "git://github.com/swh/LRDF.git"
+SRC_URI = "git://github.com/swh/LRDF.git;protocol=https"
 SRCREV = "1057b8e542f7dd27e3e591e93c07d58bd2143b76"
 PV = "0.5.0+git${SRCPV}"
 S = "${WORKDIR}/git"

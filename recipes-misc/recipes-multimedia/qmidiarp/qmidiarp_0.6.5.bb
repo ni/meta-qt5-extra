@@ -14,7 +14,7 @@ DEPENDS += " \
 inherit qmake5_base autotools-brokensep pkgconfig gtk-icon-cache qt5-translation
 
 SRC_URI = " \
-    git://github.com/emuse/qmidiarp.git \
+    git://github.com/emuse/qmidiarp.git;protocol=https \
     file://0001-remove-code-to-find-qtwidget-headers-it-finds-host-s.patch \
     file://0002-find-native-qt-build-tools-by-configure-options-auto.patch \
     file://qmidiarp-alsa.desktop \

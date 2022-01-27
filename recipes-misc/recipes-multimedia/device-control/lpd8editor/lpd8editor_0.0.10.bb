@@ -11,7 +11,7 @@ DEPENDS += " \
 "
 
 SRC_URI = " \
-    git://github.com/charlesfleche/lpd8editor.git \
+    git://github.com/charlesfleche/lpd8editor.git;protocol=https \
     file://lpd8-editor.desktop \
 "
 SRCREV = "bd15bd689329194a3c5c3d727c2318629b027e3a"

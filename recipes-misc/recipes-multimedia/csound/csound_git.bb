@@ -26,7 +26,7 @@ DEPENDS += " \
 "
 
 SRC_URI = " \
-    git://github.com/csound/csound.git \
+    git://github.com/csound/csound.git;protocol=https \
     file://0001-Do-not-set-include-path-to-usr-local-include.patch \
     file://0002-Do-not-use-try_run-for-portaudio.patch \
     file://0003-strict-aliasing-errors.patch \

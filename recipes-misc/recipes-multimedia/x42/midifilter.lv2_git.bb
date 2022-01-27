@@ -7,7 +7,7 @@ inherit autotools-brokensep pkgconfig
 
 DEPENDS += "lv2"
 
-SRC_URI = "git://github.com/x42/midifilter.lv2.git"
+SRC_URI = "git://github.com/x42/midifilter.lv2.git;protocol=https"
 SRCREV = "5b2b0976b1cbdb7533bea23d1fcac45e21803edd"
 PV = "0.4.7+git${SRCPV}"
 S = "${WORKDIR}/git"

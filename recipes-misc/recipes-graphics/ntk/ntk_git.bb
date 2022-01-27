@@ -4,7 +4,7 @@ LICENSE = "LGPLv2 & FLTK"
 LIC_FILES_CHKSUM = "file://COPYING;md5=f6b26344a24a941a01a5b0826e80b5ca"
 
 SRC_URI = " \
-    git://github.com/original-male/${BPN}.git \
+    git://github.com/original-male/${BPN}.git;protocol=https \
     file://0001-wscript-check-compile-instead-of-tun-check-datatype-.patch \
 "
 SRCREV = "1e3f5106d404562902bed2983403301db24a3f78"

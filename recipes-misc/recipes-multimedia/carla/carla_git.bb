@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = " \
 "
 
 SRC_URI = " \
-    git://github.com/falkTX/Carla.git \
+    git://github.com/falkTX/Carla.git;protocol=https \
     file://0001-Use-fluid-instead-of-ntk-fluid.patch \
     file://0002-do-not-try-to-cross-run-carla-lv2-export.patch \
     file://0003-Don-t-disable-EXPERIMENTAL_PLUGINS.patch \

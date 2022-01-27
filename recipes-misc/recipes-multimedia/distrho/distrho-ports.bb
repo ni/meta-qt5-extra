@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = " \
 "
 
 SRC_URI = " \
-    git://github.com/DISTRHO/DISTRHO-Ports.git \
+    git://github.com/DISTRHO/DISTRHO-Ports.git;protocol=https \
     file://0001-disable-pitchedDelay-it-uses-double-precision-SSE2-b.patch \
     file://0002-Refine-Plugin-do-not-include-xmmintrin.h.patch \
     \

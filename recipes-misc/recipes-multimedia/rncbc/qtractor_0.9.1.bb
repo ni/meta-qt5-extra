@@ -18,7 +18,7 @@ DEPENDS += " \
 inherit qmake5_base autotools-brokensep pkgconfig gtk-icon-cache mime qt5-translation
 
 SRC_URI = " \
-    git://github.com/rncbc//qtractor.git;branch=midiimportx \
+    git://github.com/rncbc//qtractor.git;branch=midiimportx;protocol=https \
     file://0001-find-native-qt-build-tools-by-configure-options-auto.patch \
     \
     file://0001-do-nor-try-run-for-float-sse-detection.patch \

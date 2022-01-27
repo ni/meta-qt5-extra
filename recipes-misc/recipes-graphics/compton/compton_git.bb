@@ -22,7 +22,7 @@ DEPENDS = " \
 "
 
 SRC_URI = " \
-    git://github.com/chjj/compton.git \
+    git://github.com/chjj/compton.git;protocol=https \
     file://0001-Makefile-use-pkgconfig-to-find-libpcre.patch \
     file://0002-Makefile-don-t-build-manpages.patch \
 "

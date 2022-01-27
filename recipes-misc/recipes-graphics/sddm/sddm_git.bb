@@ -16,7 +16,7 @@ DEPENDS += "libpam"
 # Note: we should check default config changes by running sddm --example-config on target.
 # This is usually done during build but does not work for our cross environment
 SRC_URI = " \
-    git://github.com/sddm/${BPN}.git;protocol=git;branch=master \
+    git://github.com/sddm/${BPN}.git;protocol=https;branch=master \
     file://0001-fix-qml-install-dir.patch \
     file://0002-do-not-create-example-configutation-we-cannot-run-sd.patch \
     file://0001-Fix-build-with-Qt-5.11-1024.patch \

@@ -8,7 +8,7 @@ inherit qmake5
 
 PV = "0.0.0+git${SRCPV}"
 
-SRC_URI = "git://github.com/lirios/calculator.git"
+SRC_URI = "git://github.com/lirios/calculator.git;protocol=https"
 SRCREV = "b86e70b2e408004408459349db3a7f1a7316570a"
 S = "${WORKDIR}/git"
 

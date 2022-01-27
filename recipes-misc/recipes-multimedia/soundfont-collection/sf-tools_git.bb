@@ -3,7 +3,7 @@ LICENSE = "GPLv2+"
 LIC_FILES_CHKSUM = " \
     file://LICENSE;md5=75859989545e37968a99b631ef42722e \
 "
-SRC_URI = "git://github.com/schnitzeltony/soundfont-cmdline-tools.git"
+SRC_URI = "git://github.com/schnitzeltony/soundfont-cmdline-tools.git;protocol=https"
 SRCREV = "c4b11144dc714d9e4d959f0631c35a6b9764c057"
 S = "${WORKDIR}/git"
 PV = "0.0.0+git${SRCPV}"

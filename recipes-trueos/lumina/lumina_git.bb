@@ -18,7 +18,7 @@ DEPENDS += " \
     poppler \
 "
 
-SRC_URI = "git://github.com/trueos/lumina.git"
+SRC_URI = "git://github.com/trueos/lumina.git;protocol=https"
 SRCREV = "afcece7d649bf7fecb39c815d5b5603d31df00c9"
 S = "${WORKDIR}/git"
 PV = "1.4.0+git${SRCPV}"
