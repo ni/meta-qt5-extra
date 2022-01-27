@@ -13,7 +13,7 @@ DEPENDS = " \
 "
 
 SRC_URI = " \
-    git://github.com/openAVproductions/openAV-Sorcer.git \
+    git://github.com/openAVproductions/openAV-Sorcer.git;protocol=https \
     file://0001-Do-not-overwrite-build-flags-it-causes-trouble-for-m.patch \
 "
 SRCREV = "0a8cef484174aae5c1b7be6710f31a643e7d7197"

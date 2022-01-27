@@ -33,7 +33,7 @@ inherit waf distro_features_check gtk-icon-cache pkgconfig
 REQUIRED_DISTRO_FEATURE = "x11"
 
 SRC_URI = " \
-    git://github.com/Ardour/ardour.git \
+    git://github.com/Ardour/ardour.git;protocol=https \
     file://0001-remove-all-build-flags-that-cause-trouble-for-cross-.patch \
     file://0002-Use-ARM-NEON-intrinsics-if-available-for-mixing-func.patch \
     file://ardour5.desktop \

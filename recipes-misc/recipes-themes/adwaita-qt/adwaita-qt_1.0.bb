@@ -7,7 +7,7 @@ inherit cmake_qt5
 
 DEPENDS = "qtbase"
 
-SRC_URI = "git://github.com/MartinBriza/${BPN}.git"
+SRC_URI = "git://github.com/MartinBriza/${BPN}.git;protocol=https"
 SRCREV = "34900be926b1779315af0846856860f51087fc79"
 S = "${WORKDIR}/git"
 

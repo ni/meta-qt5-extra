@@ -35,7 +35,7 @@ DEPENDS += " \
 #    gperftools
 
 SRC_URI = " \
-    git://github.com/mixxxdj/${BPN}.git;branch=2.1 \
+    git://github.com/mixxxdj/${BPN}.git;branch=2.1;protocol=https \
     file://0001-do-not-check-for-known-machine-types.patch \
     file://0002-force-using-system-soundtouch.patch \
     file://0003-align-path-of-qt-build-tools-to-our-needs.patch \

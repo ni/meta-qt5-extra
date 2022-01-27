@@ -8,7 +8,7 @@ inherit qmake5
 DEPENDS += "qtbase qtx11extras geis libxtst"
 
 SRC_URI = " \
-    git://github.com/JoseExposito/touchegg.git \
+    git://github.com/JoseExposito/touchegg.git;protocol=https \
     file://0001-fix-qt5-build.patch \
 "
 PV = "1.1.1+git${SRCPV}"

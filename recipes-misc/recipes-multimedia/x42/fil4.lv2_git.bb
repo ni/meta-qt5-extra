@@ -16,7 +16,7 @@ DEPENDS += " \
     fftw \
 "
 
-SRC_URI = "gitsm://github.com/x42/fil4.lv2.git"
+SRC_URI = "gitsm://github.com/x42/fil4.lv2.git;protocol=https"
 SRCREV = "46bbbc1830be479364ee3b09e1167c36765bbc03"
 PV = "0.4.4+git${SRCPV}"
 S = "${WORKDIR}/git"

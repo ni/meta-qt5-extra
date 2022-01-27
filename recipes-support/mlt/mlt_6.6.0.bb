@@ -8,7 +8,7 @@ LIC_FILES_CHKSUM = " \
 "
 
 SRC_URI = " \
-    git://github.com/mltframework/mlt.git \
+    git://github.com/mltframework/mlt.git;protocol=https \
 "
 SRCREV = "aea7f984b85ac61a4052d6ae17ce981d0530548e"
 S = "${WORKDIR}/git"

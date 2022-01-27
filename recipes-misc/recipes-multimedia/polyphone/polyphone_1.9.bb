@@ -19,7 +19,7 @@ DEPENDS += " \
 "
 
 SRC_URI = " \
-    git://github.com/davy7125/polyphone.git \
+    git://github.com/davy7125/polyphone.git;protocol=https \
     file://polyphone.desktop \
     file://polyphone.mime \
     file://0001-align-compiler-switches-constants-for-cross-compilin.patch \

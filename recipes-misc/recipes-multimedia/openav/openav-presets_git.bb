@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=d32239bcb673463ab874e80d47fae504"
 inherit allarch
 
 SRC_URI = " \
-    git://github.com/harryhaaren/openAV-presets.git \
+    git://github.com/harryhaaren/openAV-presets.git;protocol=https \
 "
 SRCREV = "c52ded5002b1bdf05bae3fe692b259a6b414942c"
 PV = "0.0.0+git${SRCPV}"

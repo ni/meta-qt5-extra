@@ -4,7 +4,7 @@ LICENSE = "OLDAP-2.8"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=153d07ef052c4a37a8fac23bc6031972"
 
 SRC_URI = " \
-    git://github.com/LMDB/lmdb.git;branch=mdb.RE/0.9 \
+    git://github.com/LMDB/lmdb.git;branch=mdb.RE/0.9;protocol=https \
     file://0001-Patch-the-main-Makefile.patch \
 "
 SRCREV = "60d500206a108b2c64ca7e36b0113b2cd3711b98"

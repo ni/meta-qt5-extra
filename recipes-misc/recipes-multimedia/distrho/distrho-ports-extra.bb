@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = " \
 "
 
 SRC_URI = " \
-    git://github.com/DISTRHO/DISTRHO-Ports-Extra.git \
+    git://github.com/DISTRHO/DISTRHO-Ports-Extra.git;protocol=https \
 "
 # TODO:
 # argolunar: no sound (presets?)

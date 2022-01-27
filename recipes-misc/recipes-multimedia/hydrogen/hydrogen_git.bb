@@ -32,7 +32,7 @@ DEPENDS += " \
 # NOTE: download of drumkits might fail -> repeat builds of this recipe usually helps
 
 SRC_URI = " \
-    git://github.com/hydrogen-music/hydrogen.git \
+    git://github.com/hydrogen-music/hydrogen.git;protocol=https \
     file://0001-remove-qt5_use_modules.patch \
     file://0002-hydrogen.default.conf-do-not-show-developer-warnings.patch \
     file://0003-Fix-man-installation-path.patch \

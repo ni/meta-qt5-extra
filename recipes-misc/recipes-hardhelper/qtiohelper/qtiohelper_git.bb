@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=bd7b2c994af21d318bd2cd3b3f80c2d5"
 
 require recipes-qt/qt5/qt5.inc
 
-SRC_URI = "git://github.com/schnitzeltony/${BPN}.git;branch=master"
+SRC_URI = "git://github.com/schnitzeltony/${BPN}.git;branch=master;protocol=https"
 
 DEPENDS += "qtbase qtserialport"
 

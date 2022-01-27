@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = " \
 "
 
 SRC_URI = " \
-    git://github.com/calf-studio-gear/calf.git \
+    git://github.com/calf-studio-gear/calf.git;protocol=https \
     file://0001-Do-store-calfmakerdf-commandline-for-later-use-in-qe.patch \
 "
 SRCREV = "f71e2742e1463906c3d44a4b33c1d90e3ad61acb"
