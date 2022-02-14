@@ -17,7 +17,7 @@ DEPENDS += " \
     qtsvg \
 "
 
-SRC_URI = "git://github.com/lumina-desktop/lumina.git"
+SRC_URI = "git://github.com/lumina-desktop/lumina.git;protocol=https"
 SRCREV = "ee85f9b4254ee98a06d169d14fb3cbb37c74f098"
 S = "${WORKDIR}/git"
 PV = "1.6.0"

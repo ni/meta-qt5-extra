@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = " \
     file://GPLv3;md5=d32239bcb673463ab874e80d47fae504 \
 "
 
-SRC_URI = "git://github.com/mltframework/mlt.git"
+SRC_URI = "git://github.com/mltframework/mlt.git;protocol=https"
 SRCREV = "902c4c2d82514e812b3129a0aa3146a89bb898ec"
 PV = "6.24.0"
 S = "${WORKDIR}/git"

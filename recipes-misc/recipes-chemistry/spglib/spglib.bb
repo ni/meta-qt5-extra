@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=5e13e4b13c9ea72dbc9fda34255d9371"
 
 inherit autotools
 
-SRC_URI = "git://github.com/atztogo/spglib.git"
+SRC_URI = "git://github.com/atztogo/spglib.git;protocol=https"
 SRCREV = "e8118d854a4c11dbaa8d7b2c55d4a1e74ddcaaf7"
 S = "${WORKDIR}/git"
 PV = "1.16.1"
