@@ -13,10 +13,11 @@ DEPENDS += " \
     libdbusmenu-qt5 \
     menu-cache \
     kwindowsystem \
+    lxqt-menu-data \
 "
 
-SRCREV = "388588071d96d8bb1ae4acf4fee4beb275d96a7d"
-PV = "1.2.0"
+SRCREV = "1f87ef45ec0ba766d149337ff41fd38cfe93b1ee"
+PV = "1.4.0"
 
 PACKAGECONFIG[cpu_plugin] = "-DCPULOAD_PLUGIN=Yes,-DCPULOAD_PLUGIN=No, libstatgrab"
 PACKAGECONFIG[dom] = "-DDOM_PLUGIN=Yes,-DDOM_PLUGIN=No"
@@ -33,4 +34,5 @@ FILES:${PN} += " \
     ${datadir}/lxqt/panel.conf \
     ${datadir}/lxqt/lxqt-panel/*.desktop \
     ${datadir}/desktop-directories \
+    ${datadir}/lxqt/panel/qeyes-types \
 "

@@ -6,7 +6,7 @@ REQUIRED_DISTRO_FEATURES = "x11"
 
 inherit lxqt qt5-translation pkgconfig features_check cmake_lib mime
 
-DEPENDS += "qtx11extras glib-2.0 libexif menu-cache libxcb liblxqt"
+DEPENDS += "qtx11extras glib-2.0 libexif menu-cache libxcb liblxqt lxqt-menu-data"
 
 do_configure:append() {
     # remove absolute paths from exported cmake files
@@ -15,8 +15,8 @@ do_configure:append() {
     done
 }
 
-SRCREV = "92a1f30fcc0cd3254f78e7e469da7b99278cd696"
-PV = "1.2.0"
+SRCREV = "fda7b96d987fe52dbaa9f204529e5a58bcd074db"
+PV = "1.4.0"
 
 FILES:${PN} += " \
     ${datadir}/mime \

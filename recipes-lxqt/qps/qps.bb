@@ -11,9 +11,10 @@ DEPENDS += " \
     lxqt-config \
 "
 
-SRCREV = "6e83a692e319bc282f7b305458173b0cef539ba7"
-PV = "2.6.0"
+SRCREV = "ea46656e33fd7b37cd1434ce657928c104d2d362"
+PV = "2.8.0"
 
 FILES:${PN} += " \
     ${datadir}/icons \
+    ${datadir}/metainfo/org.lxqt.Qps.appdata.xml \
 "
